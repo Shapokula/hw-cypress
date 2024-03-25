@@ -1,0 +1,18 @@
+{
+  "name": "hw-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:desktop-headless": "cypress run --browser chrome --config-file cypress.config.js",
+    "cypress:desktop-headed": "cypress run --headed --browser firefox --config-file cypress.config.js",
+    "cypress:mobile-headless": "cypress run --browser chrome --config-file cypress.mobile.js",
+    "cypress:mobile-headed": "cypress run --headed --browser firefox --config-file cypress.mobile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  }
+}
